@@ -23,8 +23,4 @@ cargo build --release
 
 ## Технические детали
 
-Нужны права:
-PROCESS_VM_OPERATION | PROCESS_VM_READ | PROCESS_VM_WRITE - для процесса
-THREAD_GET_CONTEXT - для потока
-
 Работает на Windows 10/11 x64. Для исследований и тестирования защиты.
